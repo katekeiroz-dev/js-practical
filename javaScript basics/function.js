@@ -12,8 +12,6 @@ function areaQuadrado(lado) {
 
 // --
 
-
-
 /* PARÂMETROS E ARGUMENTOS
 
 Ao criar uma função, você pode definir parâmetros.
@@ -58,8 +56,6 @@ addEventListener('click', function() {
   // Segundo é uma função anônima
 
   //Funções anônimas são aquelas em que o nome da função não é definido, escritas como function() {} ou () => {}
-
-  
 
   /*PODE OU NÃO RETORNAR UM VALOR
 
@@ -113,9 +109,21 @@ function isTruthy(dado) {
 
 
 // Crie uma função matemática que retorne o perímetro de um quadrado
+
 // lembrando: perímetro é a soma dos quatro lados do quadrado
+function perimetroQuadrado(lado){
+    return lado * 4;
+}
 
 // Crie uma função que retorne o seu nome completo
+
+let nome = 'Kate' ;
+let sobrenome = 'Keiroz' ;
+function nomeCompleto(nome,sobrenome) {
+    return nome + '' + sobrenome ;
+}
+
+
 // ela deve possuir os parâmetros: nome e sobrenome
 
 // Crie uma função que verifica se um número é par
