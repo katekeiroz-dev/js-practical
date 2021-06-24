@@ -123,10 +123,20 @@ function nomeCompleto(nome,sobrenome) {
     return nome + '' + sobrenome ;
 }
 
-
 // ela deve possuir os parâmetros: nome e sobrenome
 
+
 // Crie uma função que verifica se um número é par
+
+function isEven(numero) {
+  let modulo = numero % 2;
+  if (modulo=== 0) {
+    return true;
+    else {
+      return false;
+    }
+  }
+}
 
 // Crie uma função que retorne o tipo de
 // dado do argumento passado nela (typeof)
