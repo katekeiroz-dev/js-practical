@@ -15,7 +15,8 @@ if(frutas[fruta] === 'Pera'){
 }
 
 
+
 let utimaFruta = frutas[frutas.length -1];
 
-
+console.log(utimaFruta);
 
