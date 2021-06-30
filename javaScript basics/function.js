@@ -155,5 +155,6 @@ function precisoVisitar(paisesVisitados) {
     return `Já visitei ${paisesVisitados} do total de ${totalPaises} países`;
   }
   precisoVisitar(20);
-  jaVisitei(20);
+  jaVisitei(20):
+
   
